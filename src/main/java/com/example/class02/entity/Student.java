@@ -1,4 +1,4 @@
-package com.example.class02;
+package com.example.class02.entity;
 
 public class Student {
     private String name;

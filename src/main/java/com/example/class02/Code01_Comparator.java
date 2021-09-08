@@ -1,5 +1,7 @@
 package com.example.class02;
 
+import com.example.class02.entity.Student;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.TreeMap;
