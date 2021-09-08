@@ -14,9 +14,13 @@ public class Code3_HeapSort {
     }
 
     private static void heapSort(int[] arr) {
-        //1、构建大顶堆
-        for (int i = 0; i < arr.length; i++) {
-            heapInsert(arr, i);
+        //1、构建大顶堆 O(N*LogN)
+//        for (int i = 0; i < arr.length; i++) {
+//            heapInsert(arr, i);
+//        }
+        // O(N)
+        for (int i = arr.length - 1; i >= 0; i--) {
+            heapIfy(arr, i, arr.length);
         }
         int heapSize = arr.length;
         AlgorithmUtils.swap(arr, 0, --heapSize);
