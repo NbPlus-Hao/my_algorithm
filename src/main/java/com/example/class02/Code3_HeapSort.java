@@ -51,9 +51,4 @@ public class Code3_HeapSort {
         }
     }
 
-    private static void adjustHeap(int[] arr, int i, int length) {
-        int temp = arr[i];
-        //从i结点的左子结点开始，也就是2i+1处开始
-
-    }
 }
